@@ -253,7 +253,15 @@ Después de copiar `.zshrc`, abre una nueva sesión de terminal para que los cam
 
 La primera vez que inicies Zsh con Powerlevel10k, se te guiará a través de un asistente de configuración (`p10k configure`). Sigue las instrucciones para personalizar tu prompt a tu gusto. Si deseas reconfigurarlo más tarde, simplemente ejecuta `p10k configure`.
 
-### 5. Configuración de Neovim (Opcional)
+### 5. Eliminar Directorio del Repositorio
+
+Una vez que hayas copiado todos los archivos de configuración necesarios, puedes eliminar el directorio del repositorio clonado si lo deseas:
+
+```bash
+rm -rf ~/.config_dotfiles
+```
+
+### 6. Configuración de Neovim (Opcional)
 
 Tu `.zshrc` hace referencia a `nvim-linux-x86_64/bin`. Si utilizas Neovim, asegúrate de tenerlo instalado y su binario accesible en esa ruta, o ajusta la variable `PATH` en tu `.zshrc` a la ubicación correcta de tu instalación de Neovim.
 
